@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: Trebuchet MS;
+	box-sizing: border-box;
+	color: black;
+}
+.principal_div {
+	margin :3%;
+}
+p {
+	margin : 10px 0;
+}
+span, input, label {
+	display: block;
+	margin : 10px 0;
+}
+input {
+	padding : 15px;
+}
+
+input.button {
+    margin : 25px 0;
+	text-transform: uppercase;
+	background-color: #fff;
+	padding: 10px 30px;
+	color: brown;
+	transition: .5s;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+input.button:hover {
+	background-color: brown;
+	color : white;
+	border :  1px solid brown;
+}
+input.button:focus {
+	outline:none;
+	color: black;
+}

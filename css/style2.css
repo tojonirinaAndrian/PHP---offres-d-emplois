@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: Trebuchet MS;
+	box-sizing: border-box;
+	color: black;
+}
+
+.principal_div {
+	min-height: 100vh;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.principal_div input, .principal_div button {
+	margin: 5px;
+	padding : 5px;
+}
+
+.title {
+	margin : 5px;
+}
+
+.principal_div p a {
+	padding : 10px;
+	display: block;
+	transition: .5s;
+	text-decoration: none;
+}
+
+.principal_div p a:hover {
+	text-decoration: underline;
+	color: green;
+}
+input.button {
+	text-transform: uppercase;
+	background-color: #fff;
+	padding: 10px 30px;
+	color: brown;
+	transition: .5s;
+	cursor: pointer;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+input.button:hover {
+	background-color: brown;
+	color : white;
+	border :  1px solid brown;
+}
+input.button:focus {
+	outline:none;
+	color: black;
+}
+

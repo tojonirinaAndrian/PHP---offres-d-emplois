@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: Trebuchet MS;
+	box-sizing: border-box;
+	color: black;
+}
+.principal_div {
+	margin :3%;
+}
+.principal_div p {
+	margin : 10px;
+}
+.title {
+	text-transform: uppercase;
+}
+.principal_div a:hover {
+	color : green;
+	transition :1s;
+}
